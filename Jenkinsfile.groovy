@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pipeline {
 
   /*
@@ -103,3 +104,25 @@ pipeline {
     }
   }
 }	
+=======
+#!/usr/bin/env groovy
+def call() {
+	pipeline {
+	
+	stages {
+	  stage ('Test1') {
+	    steps {
+		  script {
+		    println "This is a test"
+		  }
+	    }
+			
+	  }
+	}
+	post {
+	  always {
+	    println "Ending ..."
+	  }
+	}
+}	
+>>>>>>> 7e7fa5b43000ead83f0047a9a530780cacd98c1c
