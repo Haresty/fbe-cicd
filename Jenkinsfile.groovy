@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-pipeline {
+ipeline {
 
   /*
    * Run everything on an existing agent configured with a label 'docker'.
@@ -103,26 +102,4 @@ pipeline {
           body: "Something is wrong with ${env.BUILD_URL}"
     }
   }
-}	
-=======
-#!/usr/bin/env groovy
-def call() {
-	pipeline {
-	
-	stages {
-	  stage ('Test1') {
-	    steps {
-		  script {
-		    println "This is a test"
-		  }
-	    }
-			
-	  }
-	}
-	post {
-	  always {
-	    println "Ending ..."
-	  }
-	}
-}	
->>>>>>> 7e7fa5b43000ead83f0047a9a530780cacd98c1c
+}
