@@ -7,8 +7,8 @@ def call() {
 	    steps {
 		  script {
 		    println "This is a test"
-			}
-		}
+		  }
+	    }
 			
 	  }
 	}
