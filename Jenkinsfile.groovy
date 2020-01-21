@@ -7,10 +7,6 @@ pipeline {
     }
  }
 
-  environment {
-	 echo 'Run environment ...'
-  }
-
   stages {
     stage('Build') {
       steps {
