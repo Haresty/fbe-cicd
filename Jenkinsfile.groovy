@@ -1,4 +1,4 @@
-ipeline {
+pipeline {
 
   /*
    * Run everything on an existing agent configured with a label 'docker'.
